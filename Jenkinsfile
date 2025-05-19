@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/avannesarestrepo/demo-java-jenkins.git', branch: 'main'
+                git url: 'https://github.com/avannesarestrepo/jenkins_project.git', branch: 'master'
             }
         }
 
