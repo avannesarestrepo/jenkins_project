@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment {
-        BUILD_ARTIFACT = "target/demo-0.0.1-SNAPSHOT.jar"
+        BUILD_ARTIFACT = "target/jenkins_project-0.0.1-SNAPSHOT.jar"
     }
 
     stages {
